@@ -1,0 +1,42 @@
+[package]
+name = "learn-polars"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# regex = "1.10.3"
+polars = { version = "0.37.0", features = [
+    "lazy",
+    # "fmt",
+    # "strings",
+    # "rank",
+    # "mode",
+    # "dtype-full",
+    # "pivot",
+    # "temporal",
+    # "timezones",
+    # "to_dummies",
+    # "log",
+    # "random",
+    # "trigonometry",
+    # "partition_by",
+    # "is_in",
+    # "dynamic_group_by",
+
+    # "ndarray",
+    # "describe",
+    # "dtype-datetime",
+    # "dtype-date",
+    # "dtype-categorical",
+    # "object",
+    # "rows",
+    # "round_series",
+    # "abs",
+    # "diff",
+    # "list_count",
+    # "list_eval",
+    # "serde",
+    "nightly",
+] }
